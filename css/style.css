@@ -1,0 +1,54 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: url(../img/1674913540_bogatyr-club-p-krasivii-fon-dlya-pozdravleniya-s-dnem-roz-65.jpg);
+    background-position: right bottom;
+    background-size: cover;
+    font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: rgb(224, 24, 164);
+    padding: 50px 100px  70px 100px;
+    text-align: center;
+    border-radius: 200px 50px 200px 0px;
+    animation: scale 5s;
+}
+
+.title {
+    margin-top: 0;
+    font-size: 50px;
+}
+
+.poem {
+    font-size: 40px;
+}
+
+.content {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
