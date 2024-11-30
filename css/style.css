@@ -25,6 +25,8 @@ body {
     text-align: center;
     border-radius: 200px 50px 200px 0px;
     animation: scale 5s;
+        max-height: 718px;
+    max-width: 600px;
 }
 
 .title {
@@ -33,7 +35,7 @@ body {
 }
 
 .poem {
-    font-size: 40px;
+       font-size: 34px;
 }
 
 .content {
